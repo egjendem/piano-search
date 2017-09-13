@@ -7,14 +7,14 @@
 
 module.exports = { 
     /**
-    * Returns an object literal with match ratio in percent, and other information.
+    * Returns an object literal with match ratio and other information.
     * @param {string} search
     * @param {string} target
     */
     pianoSearch: function(search, target) {
         let matches = 0, targetIndexCount = 0, nonMatches = 0
 
-        // Santize input strings.
+        // Sanitize input strings.
         search = search.replace(/\s|\W/g, '').toLowerCase().split('')
         target = target.replace(/\s|\W/g, '').toLowerCase().split('')
 
