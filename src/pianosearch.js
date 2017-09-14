@@ -1,13 +1,12 @@
 // Pianosearch.js 0.1.0
 // (c) 2017 Espen Gjendem
 // This package is licensed under MIT.
-// Feel free to modify it to your specific needs.
 // Contact me if you have any questions related to the source code.
 // espen.gjendem@gmail.com
 
 module.exports = { 
     /**
-    * Returns an object literal with match ratio and other information.
+    * Returns an object literal containing match ratio.
     * @param {string} search
     * @param {string} target
     */
